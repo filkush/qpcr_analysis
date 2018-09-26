@@ -1,0 +1,21 @@
+---
+title: "qpcr"
+author: "Philip"
+date: "9/19/2018"
+output: html_document
+---
+
+# Load R Packages
+## Smaller heading
+##### Smallest heading
+
+```{r libraries}
+install.packages("tidyverse")
+library(tidyverse)
+library(devtools)
+devtools::install_github("jrcunning/steponeR")
+
+library(steponeR) 
+
+```
+
